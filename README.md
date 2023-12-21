@@ -8,10 +8,10 @@ By no means are we experts in any of these fields. We're just guys playing aroun
 
 ## Important repos
 
-1. rag-fe: Front end logic (We decided to go with React for obvious community and popularity reasons.)
-2. rag-be: Backend logic (TBD. Could be python or dotnet)
-3. rag-etl: ETL logic. Processing incoming data into vector embeddings. (Obvious choice is python here. But considering doing a separate repo using mlnet in C#)
-4. rag-model: Model logic. Allows for the application and data store to interact with the LLM.
+1. **rag-fe**: Front end logic (We decided to go with React for obvious community and popularity reasons.)
+2. **rag-be**: Backend logic (TBD. Could be python or dotnet)
+3. **rag-etl**: ETL logic. Processing incoming data into vector embeddings. (Obvious choice is python here. But considering doing a separate repo using mlnet in C#)
+4. **rag-model**: Model logic. Allows for the application and data store to interact with the LLM.
 
 # LLM choice
 We chose [Mistral-7B-Instruct-v0.2](https://docs.mistral.ai/models) because of the recent hype surrounding the performance of the model. (Also where in the world are we going to get 100gb worth of GPU by ourselves?)
